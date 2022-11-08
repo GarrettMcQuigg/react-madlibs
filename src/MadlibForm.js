@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
+import './MadlibForm.css';
 
 const MadlibForm = ({ newMadlib }) => {
   const [formData, setFormData] = useState({
@@ -43,6 +44,7 @@ const MadlibForm = ({ newMadlib }) => {
             name="noun1"
             value={formData.noun1}
             placeholder="noun"
+            required
           />
         </div>
 
@@ -54,6 +56,7 @@ const MadlibForm = ({ newMadlib }) => {
             name="noun2"
             value={formData.noun2}
             placeholder="another noun"
+            required
           />
         </div>
 
@@ -65,6 +68,7 @@ const MadlibForm = ({ newMadlib }) => {
             name="adjective"
             value={formData.adjective}
             placeholder="adjective"
+            required
           />
         </div>
 
@@ -76,6 +80,7 @@ const MadlibForm = ({ newMadlib }) => {
             name="color"
             value={formData.color}
             placeholder="color"
+            required
           />
         </div>
 

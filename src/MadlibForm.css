@@ -1,0 +1,25 @@
+input {
+  padding: 7px 5px;
+  border-radius: 25px;
+  border: none;
+  width: 95%;
+  text-align: center;
+}
+
+input:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+button {
+  background-color: white;
+  padding: 7px 5px;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(232, 232, 232);
+}
